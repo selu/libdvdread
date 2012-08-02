@@ -13,5 +13,8 @@ Gem::Specification.new do |s|
 
 	s.add_runtime_dependency 'ffi', '~> 1.1.2'
 
-	s.add_development_dependency 'yard'
+	s.add_development_dependency 'yard', '~> 0.8.2'
+	s.add_development_dependency 'redcarpet'
+	s.add_development_dependency 'minitest', '~> 3.3.0'
+	s.add_development_dependency 'minitest-wscolor'
 end
